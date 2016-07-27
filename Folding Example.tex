@@ -19,28 +19,34 @@ First, there are user local commands for each fold environment being used, which
 
 If you assign it a 0, it will be folded, like so:
 \begin{verbatim}
-\flexFold{0}{This is some content. There is a lot of content like it, but this one is mine.}
+\flexFold{0}{This is some content. 
+There is a lot of content like it, but this one is mine.}
 \end{verbatim}
 
 Creates:
-\flexFold{0}{This is some content. There is a lot of content like it, but this one is mine.}
+\flexFold{0}{This is some content. 
+There is a lot of content like it, but this one is mine.}
 
 If you use a 1, it will start expanded, like so:
 
 \begin{verbatim}
-\flexFold{1}{This is some content. There is a lot of content like it, but this one is mine.}
+\flexFold{1}{This is some content. 
+There is a lot of content like it, but this one is mine.}
 \end{verbatim}
 
 Creates:
-\flexFold{1}{This is some content. There is a lot of content like it, but this one is mine.}
+\flexFold{1}{This is some content. 
+There is a lot of content like it, but this one is mine.}
 
 And finally, if you use 2, then the content will be expanded, but without the arrow button in the top right, like so:
 \begin{verbatim}
-\flexFold{2}{This is some content. There is a lot of content like it, but this one is mine.}
+\flexFold{2}{This is some content. 
+There is a lot of content like it, but this one is mine.}
 \end{verbatim}
 
 Creates:
-\flexFold{2}{This is some content. There is a lot of content like it, but this one is mine.}
+\flexFold{2}{This is some content. 
+There is a lot of content like it, but this one is mine.}
 
 In addition to these commands we now have global commands,
 \begin{verbatim}
@@ -53,45 +59,75 @@ These work as you would suspect, and they overwrite the local variable assigned 
 
 \begin{verbatim}
 \collapseAllFolds
-\flexFold{0}{This is some content. There is a lot of content like it, but this one is mine.}
-\flexFold{1}{This is some content. There is a lot of content like it, but this one is mine.}
-\flexFold{2}{This is some content. There is a lot of content like it, but this one is mine.}
+\flexFold{0}{This is some content. 
+There is a lot of content like it, but this one is mine.}
+
+\flexFold{1}{This is some content. 
+There is a lot of content like it, but this one is mine.}
+
+\flexFold{2}{This is some content. 
+There is a lot of content like it, but this one is mine.}
 \end{verbatim}
 
 Creates:
 \collapseAllFolds
-\flexFold{0}{This is some content. There is a lot of content like it, but this one is mine.}
-\flexFold{1}{This is some content. There is a lot of content like it, but this one is mine.}
-\flexFold{2}{This is some content. There is a lot of content like it, but this one is mine.}
+\flexFold{0}{This is some content. 
+There is a lot of content like it, but this one is mine.}
+
+\flexFold{1}{This is some content. 
+There is a lot of content like it, but this one is mine.}
+
+\flexFold{2}{This is some content. 
+There is a lot of content like it, but this one is mine.}
 
 and 
 \begin{verbatim}
 \expandAllFolds
-\flexFold{0}{This is some content. There is a lot of content like it, but this one is mine.}
-\flexFold{1}{This is some content. There is a lot of content like it, but this one is mine.}
-\flexFold{2}{This is some content. There is a lot of content like it, but this one is mine.}
+\flexFold{0}{This is some content. 
+There is a lot of content like it, but this one is mine.}
+
+\flexFold{1}{This is some content. 
+There is a lot of content like it, but this one is mine.}
+
+\flexFold{2}{This is some content. 
+There is a lot of content like it, but this one is mine.}
 \end{verbatim}
 
 Creates:
 \expandAllFolds
-\flexFold{0}{This is some content. There is a lot of content like it, but this one is mine.}
-\flexFold{1}{This is some content. There is a lot of content like it, but this one is mine.}
-\flexFold{2}{This is some content. There is a lot of content like it, but this one is mine.}
+\flexFold{0}{This is some content. 
+There is a lot of content like it, but this one is mine.}
+
+\flexFold{1}{This is some content. 
+There is a lot of content like it, but this one is mine.}
+
+\flexFold{2}{This is some content. 
+There is a lot of content like it, but this one is mine.}
 
 and:
 
 \begin{verbatim}
 \expandAllFoldsPDF
-\flexFold{0}{This is some content. There is a lot of content like it, but this one is mine.}
-\flexFold{1}{This is some content. There is a lot of content like it, but this one is mine.}
-\flexFold{2}{This is some content. There is a lot of content like it, but this one is mine.}
+\flexFold{0}{This is some content. 
+There is a lot of content like it, but this one is mine.}
+
+\flexFold{1}{This is some content. 
+There is a lot of content like it, but this one is mine.}
+
+\flexFold{2}{This is some content. 
+There is a lot of content like it, but this one is mine.}
 \end{verbatim}
 
 Creates:
 \expandAllFoldsPDF
-\flexFold{0}{This is some content. There is a lot of content like it, but this one is mine.}
-\flexFold{1}{This is some content. There is a lot of content like it, but this one is mine.}
-\flexFold{2}{This is some content. There is a lot of content like it, but this one is mine.}
+\flexFold{0}{This is some content. 
+There is a lot of content like it, but this one is mine.}
+
+\flexFold{1}{This is some content. 
+There is a lot of content like it, but this one is mine.}
+
+\flexFold{2}{This is some content. 
+There is a lot of content like it, but this one is mine.}
 
 
 \end{document}
